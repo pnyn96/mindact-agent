@@ -1,0 +1,9 @@
+*.htm linguist-vendored
+*.html linguist-vendored
+app/*.tsx linguist-detectable
+*.svg text
+app/**/*.tsx linguist-detectable
+
+Cargo.lock linguist-generated
+node_modules/* linguist-vendored
+dist/* linguist-vendored
